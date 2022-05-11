@@ -1,6 +1,6 @@
 import Vid from "./Vid.MP4"
 import Menu from "./Menu.png"
-// import Footer from "./Footer.png"
+
 import Andolitos from "./Andolitos.png"
 import Food1 from "./Food1.jpg"
 import Food2 from "./Food2.jpg"
@@ -45,7 +45,7 @@ const Header = () => {
                 <img className="img1" src={Food1} alt="pic" />
 
                 <img className="img1" src={Food3} alt="pic" />
-                <img className="img1" src={Food4} alt="pic" />
+                {/* <img className="img1" src={Food4} alt="pic" /> */}
                 <img className="img1" src={Food5} alt="pic" />
                 <img className="img1" src={Food6} alt="pic" />
                 <img className="img1" src={Food7} alt="pic" />
