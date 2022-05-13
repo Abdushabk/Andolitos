@@ -3,9 +3,9 @@ import Menu from "./Menu.png"
 
 import Andolitos from "./Andolitos.png"
 import Food1 from "./Food1.jpg"
-import Food2 from "./Food2.jpg"
+
 import Food3 from "./Food3.jpg"
-import Food4 from "./Food4.jpg"
+
 import Food5 from "./Food5.jpg"
 import Food6 from "./Food6.jpg"
 import Food7 from "./Food7.jpg"
