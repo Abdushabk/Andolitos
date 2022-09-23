@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-body{
+/* body{
   
-}
+} */
 
 .video {
   width: 100%;
@@ -228,7 +228,20 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin: 15px;
+  }
+  .section-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+    font-family: "Oswald", sans-serif;
+    font-weight: lighter;
+    font-size: medium;
    
   }
+  /* .imgb{
+    
+  } */
 }
 

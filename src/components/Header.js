@@ -1,13 +1,13 @@
 import Vid from "./Vid.MP4"
-import Menu from "./Menu.png"
+// import Menu from "./Menu.png"
 
 import Andolitos from "./Andolitos.png"
 import Food1 from "./Food1.jpg"
 import Food3 from "./Food3.jpg"
 import Food5 from "./Food5.jpg"
-import Food6 from "./Food6.jpg"
-import Food7 from "./Food7.jpg"
-import Food8 from "./Food8.jpg"
+// import Food6 from "./Food6.jpg"
+// import Food7 from "./Food7.jpg"
+// import Food8 from "./Food8.jpg"
 
 
 
@@ -39,7 +39,7 @@ const Header = () => {
                 <img src={Food5} alt="sda" />
             </div>
             <div className="section">
-                <img src={Food3} alt="sda" />
+                <img className="imgb" src={Food3} alt="sda" />
                 <div>
                     <h1>Birria</h1>
                     <p>is a Mexican dish from the state of Jalisco. It is a traditional ancestral soup or stew made from a combination of chili pepper-based goat meat adobo, garlic, cumin, bay leaves, and thyme, and cooked at a low heat. Not to be confused with barbacoa, which is cooked underground, birria is slow-stewed in a pot (olla). Beef, lamb sheep or vegan meat substitutes are alternatives for goat. It may be seasoned and garnished with onion, cilantro, and lime. It is commonly accompanied with handmade corn tortillas.
