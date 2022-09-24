@@ -49,7 +49,7 @@ const Header = () => {
                         I choose birria becuase it was one of my favorites growing up. I use to always habe to go to Mexico for it but it made its way to California eventually and because of its amazing color and great flavor I knew it was a must for Berlin</p>
                 </div>
             </div>
-            <div className="section-1">
+            <div className="section">
                 <div>
                     <h1>Carne Asada</h1>
                     <p>The term carne asada translates literally to "grilled meat"; the English-style dish "roast beef" is called by its English name in Spanish, so that each dish has a distinctive name. The term carne asada is used in Mexico and Central America and refers to the style of grilled meat in those countries. In South America, the term used for grilled meat is asado and it has a different style and preparation.
