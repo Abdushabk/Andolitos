@@ -1,4 +1,4 @@
-import Vid from "./Vid.MP4"
+import Vid from "./Vid.mov"
 // import Menu from "./Menu.png"
 
 import Andolitos from "./Andolitos.png"
