@@ -85,12 +85,13 @@
 
 .section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   align-content: center;
   align-self: center;
   margin: 100px;
   font-family: "Oswald", sans-serif;
+  flex-wrap: wrap;
 }
 .section-1 {
   display: flex;
@@ -103,16 +104,16 @@
 }
 .section-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 120px;
   font-family: "Oswald", sans-serif;
 }
 
 .section img {
-  max-height: 390px;
+  max-height: 490px;
   height: auto;
-  width: 100%;
+  width: 45%;
   margin: 10px;
   border-radius: 5px;
   background-size: contain;
