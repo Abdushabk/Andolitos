@@ -14,7 +14,7 @@ import Food5 from "./Food5.jpg"
 const Header = () => {
     return (
         <div>
-            <video className="video" src={Vid} autoPlay loop muted />
+            <video className="video" src={Vid} playsInline autoPlay loop muted />
             <div className="content">
                 {/* <h1>ANDOLITOS</h1> */}
                 <img className="head" src={Andolitos} alt="s" />
