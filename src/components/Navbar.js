@@ -14,9 +14,9 @@ const Navbar = () => {
     return <div className={color ? 'navContainer navContainer-bg':'navContainer'} >
         <h4 className='navName'>ANDOLITOS</h4>
         <ul className="navList">
-            <li>About</li>
-            <li>Menu</li>
-            <li>Contact</li>
+            <li><a href='google.com'>About</a></li>
+            <li><a href='menu'>Menu</a></li>
+            <li><a href='menu'>contact</a></li>
         </ul>
     </div>;
 };

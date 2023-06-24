@@ -231,3 +231,46 @@
     font-size: medium;
   }
 }
+
+
+.container-one{
+display: flex;
+justify-content: space-between;
+}
+
+.container-one__text {
+  max-width: 500px;
+}
+
+.container-one__image {
+  height: 300px;
+  width: auto;
+}
+
+
+.container-two {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container-two__text {
+  max-width: 500px;
+}
+
+.container-two__image {
+  height: 300px;
+  width: auto;
+}
+
+.container-three {
+  display: flex;
+}
+
+.container-three__text{
+  max-width: 500px;
+}
+
+.container-three__image  {
+  height: 300px;
+  width: auto;
+}
