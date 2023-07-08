@@ -1,4 +1,4 @@
-import Vid from "./Vid.mov"
+import Vid from "./Vid.MP4"
 import React, { useEffect, useRef } from 'react';
 
 // import Menu from "./Menu.png"
