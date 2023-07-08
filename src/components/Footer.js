@@ -21,7 +21,7 @@ const Footers = () => {
           <input className='ename' type="text" placeholder='Name' name='name'></input>
           <input className='e-email' type="email" placeholder='Email' name='email'></input>
           <input className='esubject' type="text" placeholder='Subject' name='subject'></input>
-          <textarea className='esubject' cols="45" rows="17" placeholder='your message' name='message'></textarea>
+          <textarea className='esubject' cols="90" rows="12" placeholder='your message' name='message'></textarea>
           <input className='e-btn' type="submit" value="Send Message"></input>
         </form>
       </div>
