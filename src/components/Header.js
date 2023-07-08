@@ -14,15 +14,20 @@ import Food5 from "./Food5.jpg"
 
 
 const Header = () => {
+    const containerRefZero = useRef(null);
     const containerRefOne = useRef(null);
     const containerRefTwo = useRef(null);
     const containerRefThree = useRef(null);
   
     const handleScroll = () => {
+      const containerZero = containerRefZero.current;
       const containerOne = containerRefOne.current;
       const containerTwo = containerRefTwo.current;
       const containerThree = containerRefThree.current;
   
+      if (isInViewport(containerZero)) {
+        containerZero.classList.add('fade-in');
+      }
       if (isInViewport(containerOne)) {
         containerOne.classList.add('fade-in');
       }
@@ -60,8 +65,8 @@ const Header = () => {
                 <img className="head" src={Andolitos} alt="s" />
             </div>
 
-            <div>
-                <h3 className="section-top"> I have finally taken my love for Mexican food to Berlin! Living the Berlin taco dream I guess you could say. Berlin needed a taco shop so now I will now try to deliver. I am born in raised in San Diego, CA. And moved to Berlin 5 years ago. It was one of my dreams to bring the joy of the food from San Diego to other places in the world. So I will always do my best to provide  the authenticity of the
+            <div ref={containerRefZero}>
+                <h3   className="section-top"> I have finally taken my love for Mexican food to Berlin! Living the Berlin taco dream I guess you could say. Berlin needed a taco shop so now I will now try to deliver. I am born in raised in San Diego, CA. And moved to Berlin 5 years ago. It was one of my dreams to bring the joy of the food from San Diego to other places in the world. So I will always do my best to provide  the authenticity of the
                     Tijuana street food and  all my favorite items at the California taco shops. Tijuana focusing on mainly on Tacos and churros and the California taco shop part to focus mainly on burritos, rolled taquitos, ano Mexican fries. For now I am stationed at Holzmarkt( the times are posted weekly) and also have the possibility of andolitos in a food truck. So if you have any interests in having andolitos weather to eat or for an event please contact me here and I’ll get back to you as soon as possible. And stay posted for all new things coming. Anytime I am doing anything with andolitos of course it will be posted here. So stay updated for many delicious things to come!!
                 </h3>
             </div>
@@ -78,9 +83,9 @@ const Header = () => {
                 </div>
                 <img src={Food5} alt="sda"  className="container-one__image"/>
             </div>
-            <div ref={containerRefTwo} className="container-two">
+            <div ref={containerRefTwo}  className="container-two">
                 
-                <div className="container-two__text">
+                <div   className="container-two__text">
                     <h1>Birria</h1>
                     <p>is a Mexican dish from the state of Jalisco. It is a traditional ancestral soup or stew made from a combination of chili pepper-based goat meat adobo, garlic, cumin, bay leaves, and thyme, and cooked at a low heat. Not to be confused with barbacoa, which is cooked underground, birria is slow-stewed in a pot (olla). Beef, lamb sheep or vegan meat substitutes are alternatives for goat. It may be seasoned and garnished with onion, cilantro, and lime. It is commonly accompanied with handmade corn tortillas.
 
