@@ -70,6 +70,7 @@ const Header = () => {
                     Tijuana street food and  all my favorite items at the California taco shops. Tijuana focusing on mainly on Tacos and churros and the California taco shop part to focus mainly on burritos, rolled taquitos, ano Mexican fries. For now I am stationed at Holzmarkt( the times are posted weekly) and also have the possibility of andolitos in a food truck. So if you have any interests in having andolitos weather to eat or for an event please contact me here and I’ll get back to you as soon as possible. And stay posted for all new things coming. Anytime I am doing anything with andolitos of course it will be posted here. So stay updated for many delicious things to come!!
                 </h3>
             </div>
+            
 
 
             <div ref={containerRefOne} className="container-one">
@@ -91,7 +92,7 @@ const Header = () => {
 
                         In recent years, a popular adaption of birria has been quesabirria, a style of taco composed of a beef birria served with melted cheese in a taco that has been stained red by the birria marinade. While not a traditional Mexican dish, quesabirria, also known as red tacos, has become popular in the United States
 
-                        I choose birria becuase it was one of my favorites growing up. I use to always habe to go to Mexico for it but it made its way to California eventually and because of its amazing color and great flavor I knew it was a must for Berlin</p>
+                        </p>
                 </div>
                 <img className="container-two__image" src={Food3} alt="sda" />
             </div>
