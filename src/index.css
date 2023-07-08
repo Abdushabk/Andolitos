@@ -353,7 +353,7 @@ justify-content: space-around;
   .container-three__text {
     width: 130%;
     max-width: 700px;
-  line-height: 105%;
+  line-height: 100%;
     /* margin-bottom: 20%; */
   }
   
