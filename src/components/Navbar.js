@@ -14,7 +14,7 @@ const Navbar = () => {
     window.addEventListener('scroll', changeColor)
     return <div className={color ? 'navContainer navContainer-bg':'navContainer'} >
         {/* <h4 className='navName'>ANDOLITOS</h4> */}
-        <img src={Andolitos} className='navName'/>
+        <img src={Andolitos} alt='Andolitos' className='navName'/>
         <ul className="navList">
             {/* <li>About</li> */}
             <li>Menu</li>
