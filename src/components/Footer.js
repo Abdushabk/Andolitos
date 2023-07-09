@@ -12,6 +12,7 @@ const Footers = () => {
       }, (error) => {
         console.log(error.text);
       });
+      
   }
   return (
     <div>
