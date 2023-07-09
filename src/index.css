@@ -184,7 +184,7 @@
   margin-top: 20px;
   background-color: rgba(255, 255, 255, 0.741);
  
-  border: white solid 0px;
+  border: white solid ;
 }
 
 .e-email {
@@ -192,7 +192,7 @@
   margin-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.741);
   
-  border: white solid 0px;
+  border: white solid ;
 }
 
 .esubject {
@@ -200,7 +200,7 @@
   margin-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.741);
   
-  border: white solid 0px;
+  border: white solid ;
 }
 
 .e-btn {
