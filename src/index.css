@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family: 'Gilda Display', serif;
 }
 
@@ -354,7 +354,7 @@ justify-content: space-around;
   .container-three__text {
     width: 130%;
     max-width: 700px;
-  line-height: 130%;
+  line-height: 100%;
     /* margin-bottom: 20%; */
   }
   
