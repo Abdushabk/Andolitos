@@ -85,10 +85,12 @@
   align-self: center;
   margin-right: 7px;
   color: black;
+  
 }
 
 .navList > li {
   padding-right: 30px;
+  font-style: normal;
 }
 
 .section {
