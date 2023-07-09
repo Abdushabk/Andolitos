@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   /* box-sizing: border-box; */
-  font-family: 'Gilda Display', serif;
+  /* font-family: 'Gilda Display', serif; */
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 /* body{
@@ -24,7 +25,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Gilda Display', serif;
 }
 
 .head {
@@ -96,7 +96,6 @@
   align-content: center;
   align-self: center;
   margin: 100px;
-  font-family: 'Gilda Display', serif;
   flex-wrap: wrap;
 }
 .section-1 {
@@ -106,14 +105,12 @@
   align-content: center;
   align-self: center;
   margin: 70px;
-  font-family: 'Gilda Display', serif;
 }
 .section-top {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 120px;
-  font-family: 'Gilda Display', serif;
   line-height: 170%;
 }
 
@@ -163,8 +160,8 @@
   height: 460px;
   object-fit: cover;
   position: absolute;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
 }
 
 .footer-container {
@@ -182,36 +179,32 @@
   margin-bottom: 10px;
   margin-top: 20px;
   background-color: rgba(255, 255, 255, 0.741);
-  border-radius: 10px;
+ 
   border: white solid 0px;
-  font-family: 'Gilda Display', serif;
 }
 
 .e-email {
   padding: 5px;
   margin-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.741);
-  border-radius: 10px;
+  
   border: white solid 0px;
-  font-family: 'Gilda Display', serif;
 }
 
 .esubject {
   padding: 5px;
   margin-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.741);
-  border-radius: 10px;
+  
   border: white solid 0px;
-  font-family: 'Gilda Display', serif;
 }
 
 .e-btn {
   width: 100px;
-  border-radius: 20px;
+
   border: white solid 0px;
   padding: 6px;
   transition: ease-in-out 0.2s;
-  font-family: 'Gilda Display', serif;
 }
 
 .e-btn:hover {
