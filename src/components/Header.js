@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react';
 
 // import Menu from "./Menu.png"
 
-import Andolitos from "./Andolitos.png"
+import Logo from "./Logo.png"
 import Food1 from "./Food1.jpg"
 import Food3 from "./Food3.jpg"
 import Food5 from "./Food5.jpg"
@@ -62,7 +62,7 @@ const Header = () => {
             <video className="video" src={Vid} playsInline autoPlay loop muted />
             <div className="content">
                 {/* <h1>ANDOLITOS</h1> */}
-                <img className="head" src={Andolitos} alt="s" />
+                <img className="head" src={Logo} alt="s" />
             </div>
 
             <div ref={containerRefZero}>
