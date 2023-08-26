@@ -8,7 +8,7 @@ const MapComponent = () => {
 
   // Custom icon for the marker
   const customIcon = new L.Icon({
-    iconUrl: 'https://andolitos.netlify.app/static/media/Andolitos.738a615ccf8affd19807.png', // Replace with your custom icon URL
+    iconUrl: 'https://w7.pngwing.com/pngs/457/630/png-transparent-location-logo-location-computer-icons-symbol-location-miscellaneous-angle-heart-thumbnail.png', // Replace with your custom icon URL
     iconSize: [32, 32], // Adjust the size as needed
     iconAnchor: [16, 32],
   });

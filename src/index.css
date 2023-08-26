@@ -31,7 +31,20 @@
 
 .head {
   width: 300px;
-  opacity: 100%;
+  opacity: 0%;
+  
+}
+
+.logo-under-video-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vh; /* Adjust this based on your layout */
+  
+}
+
+.logo-under-video {
+  max-width: 60%; /* Optional, to ensure the image doesn't exceed its natural width */
   /* box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
     rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
     rgba(0, 0, 0, 0.09) 0px 32px 16px; */
