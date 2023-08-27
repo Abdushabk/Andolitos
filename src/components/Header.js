@@ -115,25 +115,25 @@ const Header = () => {
                 <img src={Food1} alt="sda" className="container-three__image" />
             </div>
             <div ref={containerRefFour} className="container-four" id="menu">
-            <div className="container-three__text">
+            <div className="container-four__text">
       <h2>Experience Authentic Mexican Delights! 🇲🇽</h2>
       <p>
         Indulge in the vibrant and mouthwatering flavors of Mexico with our delectable menu offerings that promise to take your taste buds on an unforgettable culinary journey. At [Restaurant Name], we take pride in crafting the finest Mexican dishes, ensuring each bite is a symphony of taste, texture, and tradition.
       </p>
-      <hr />
-      <br />
+      
+      
       <h3>Beef Birria Burrito and Tacos:</h3>
       <p>
         Prepare to be captivated by the richness of our Beef Birria Burrito and Tacos. Tender, slow-cooked beef, marinated in a blend of exquisite spices, is wrapped in a warm, freshly made tortilla. As you savor each bite, you'll experience the perfect harmony of savory and spicy, a true homage to the heart of Mexican cuisine. Accompanied by a selection of fresh toppings, our Beef Birria Tacos are a delightful treat for your senses.
       </p>
-      <hr />
-      <br />
+      
+      
       <h3>Shrimp Birria Tacos:</h3>
       <p>
         Elevate your dining experience with the luxurious essence of our Shrimp Birria Tacos. Succulent shrimp, embraced by the same signature Birria marinade, offers a taste profile that's both indulgent and invigorating. The tender shrimp, combined with the authenticity of our handmade tortillas, create a combination that's both comforting and exhilarating.
       </p>
-      <hr />
-      <br />
+      
+      
       <h3>Mexican Shrimp Cocktail:</h3>
       <p>
         Dive into a bowl of coastal paradise with our Mexican Shrimp Cocktail. Plump, juicy shrimp are paired with a medley of crisp vegetables, all swimming in a zesty, tangy tomato-based cocktail sauce. This dish not only delights the palate but also transports you to the sun-soaked shores of Mexico, where seafood is celebrated with zest and zeal.

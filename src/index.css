@@ -346,6 +346,12 @@
   margin: 50px;
   /* Additional styles for the text containers */
 }
+.container-four__text {
+  max-width: 700px;
+  line-height: 150%;
+  margin: 50px;
+  /* Additional styles for the text containers */
+}
 .container-one__text > h1,
 .container-two__text > h1,
 .container-three__text > h1 {
@@ -383,12 +389,19 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 2px;
   }
   .container-one__text,
   .container-two__text,
   .container-three__text {
     width: 130%;
     max-width: 700px;
+    line-height: 100%;
+    /* margin-bottom: 20%; */
+  }
+  .container-four__text {
+    width: 100%;
+    max-width: 500px;
     line-height: 100%;
     /* margin-bottom: 20%; */
   }
@@ -400,3 +413,5 @@
     width: 75%;
   }
 }
+
+
