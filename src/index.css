@@ -389,7 +389,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 2px;
+    /* margin: 2px; */
   }
   .container-one__text,
   .container-two__text,
