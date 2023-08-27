@@ -7,6 +7,8 @@ import Logo from "./Logo.png"
 import Food1 from "./Food1.jpg"
 import Food3 from "./Food3.jpg"
 import Food5 from "./Food5.jpg"
+import menu1 from "./menu1.png"
+// import menu2 from "./menu2.png"
 // import Food6 from "./Food6.jpg"
 // import Food7 from "./Food7.jpg"
 // import Food8 from "./Food8.jpg"
@@ -18,12 +20,14 @@ const Header = () => {
     const containerRefOne = useRef(null);
     const containerRefTwo = useRef(null);
     const containerRefThree = useRef(null);
+    const containerRefFour = useRef(null);
   
     const handleScroll = () => {
       const containerZero = containerRefZero.current;
       const containerOne = containerRefOne.current;
       const containerTwo = containerRefTwo.current;
       const containerThree = containerRefThree.current;
+      const containerFour = containerRefFour.current;
   
       if (isInViewport(containerZero)) {
         containerZero.classList.add('fade-in');
@@ -38,6 +42,9 @@ const Header = () => {
   
       if (isInViewport(containerThree)) {
         containerThree.classList.add('fade-in');
+      }
+      if (isInViewport(containerFour)) {
+        containerFour.classList.add('fade-in');
       }
     };
   
@@ -105,6 +112,40 @@ const Header = () => {
                         I choose to use Carne Asada because I grew up  eating it weather be at home bbq’s or on the streets of Tijuana, for me Carne Asada represents both Tijuana street food and California taco shops equally</p>
                 </div>
                 <img src={Food1} alt="sda" className="container-three__image" />
+            </div>
+            <div ref={containerRefFour} className="container-four">
+            <div className="container-three__text">
+      <h2>Experience Authentic Mexican Delights! 🇲🇽</h2>
+      <p>
+        Indulge in the vibrant and mouthwatering flavors of Mexico with our delectable menu offerings that promise to take your taste buds on an unforgettable culinary journey. At [Restaurant Name], we take pride in crafting the finest Mexican dishes, ensuring each bite is a symphony of taste, texture, and tradition.
+      </p>
+      <hr />
+      <br />
+      <h3>Beef Birria Burrito and Tacos:</h3>
+      <p>
+        Prepare to be captivated by the richness of our Beef Birria Burrito and Tacos. Tender, slow-cooked beef, marinated in a blend of exquisite spices, is wrapped in a warm, freshly made tortilla. As you savor each bite, you'll experience the perfect harmony of savory and spicy, a true homage to the heart of Mexican cuisine. Accompanied by a selection of fresh toppings, our Beef Birria Tacos are a delightful treat for your senses.
+      </p>
+      <hr />
+      <br />
+      <h3>Shrimp Birria Tacos:</h3>
+      <p>
+        Elevate your dining experience with the luxurious essence of our Shrimp Birria Tacos. Succulent shrimp, embraced by the same signature Birria marinade, offers a taste profile that's both indulgent and invigorating. The tender shrimp, combined with the authenticity of our handmade tortillas, create a combination that's both comforting and exhilarating.
+      </p>
+      <hr />
+      <br />
+      <h3>Mexican Shrimp Cocktail:</h3>
+      <p>
+        Dive into a bowl of coastal paradise with our Mexican Shrimp Cocktail. Plump, juicy shrimp are paired with a medley of crisp vegetables, all swimming in a zesty, tangy tomato-based cocktail sauce. This dish not only delights the palate but also transports you to the sun-soaked shores of Mexico, where seafood is celebrated with zest and zeal.
+      </p>
+      <p>
+        Our commitment to culinary excellence is woven into every aspect of our menu, from the selection of premium ingredients to the careful preparation methods that honor time-honored traditions. Whether you're a devoted fan of Mexican cuisine or new to its enchanting allure, we invite you to join us at [Restaurant Name] for an experience that captures the essence of Mexico's culinary heritage.
+      </p>
+      <p>
+        🍹🎉 Discover the warmth of Mexico, one bite at a time. Come savor the authenticity at [Restaurant Name] today! 🎉🍹
+      </p>
+    </div>
+                <img src={menu1} alt="sda" className="container-four__image" />
+                
             </div>
         </div>
     )
