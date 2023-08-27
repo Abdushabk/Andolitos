@@ -15,7 +15,7 @@ const Footers = () => {
       
   }
   return (
-    <div>
+    <div id='contact'>
       <img className='Footer' src={footer} alt="s" />
       <div className='footer-container'>
         <form className='footer-form' onSubmit={sendEmail}>

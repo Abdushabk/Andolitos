@@ -91,6 +91,7 @@
 
 .navList {
   list-style: none;
+  
   display: flex;
   align-self: center;
   margin-right: 7px;
@@ -102,6 +103,10 @@
   font-style: normal;
 }
 
+.navList a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set the desired text color */
+}
 .section {
   display: flex;
   justify-content: space-around;

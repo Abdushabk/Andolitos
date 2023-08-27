@@ -1,26 +1,31 @@
-import { useState } from 'react';
-import '../index.css'
-import Andolitos from "./Andolitos.png"
+import React, { useState } from 'react';
+import '../index.css';
+import Andolitos from './Andolitos.png';
 
 const Navbar = () => {
-    const [color, setColor] = useState(false)
+    const [color, setColor] = useState(false);
     const changeColor = () => {
         if (window.scrollY >= 800) {
-            setColor(true)
+            setColor(true);
         } else {
-            setColor(false)
+            setColor(false);
         }
-    }
-    window.addEventListener('scroll', changeColor)
-    return <div className={color ? 'navContainer navContainer-bg':'navContainer'} >
-        {/* <h4 className='navName'>ANDOLITOS</h4> */}
-        <img src={Andolitos} alt='Andolitos' className='navName'/>
-        <ul className="navList">
-            {/* <li>About</li> */}
-            <li>Menu</li>
-            <li>contact</li>
-        </ul>
-    </div>;
+    };
+    window.addEventListener('scroll', changeColor);
+
+    return (
+        <div className={color ? 'navContainer navContainer-bg' : 'navContainer'}>
+            <img src={Andolitos} alt="Andolitos" className="navName" />
+            <ul className="navList">
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    );
 };
 
 export default Navbar;
