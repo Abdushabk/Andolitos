@@ -389,6 +389,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    max-width: 100%;
   }
   .container-four {
     flex-direction: column;
@@ -396,15 +397,19 @@
     align-items: center;
     text-align: center;
     max-width: 100%;
-    /* margin: 2px; */
+    margin-bottom: 80px;
   }
   .container-one__text,
   .container-two__text,
-  .container-three__text,
-  .container-four__text {
-    width: 130%;
+  .container-three__text{
+    width: 120%;
     max-width: 700px;
     line-height: 100%;
+    /* margin-bottom: 20%; */
+  }
+  .container-four__text {
+    line-height: 100%;
+    width: 100%;
     /* margin-bottom: 20%; */
   }
  
@@ -414,6 +419,14 @@
   .container-three__image,.container-four__image {
     height: auto;
     width: 75%;
+  }
+
+  .logo-under-video-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh; 
+    z-index: 1;/* Adjust this based on your layout */
   }
 }
 

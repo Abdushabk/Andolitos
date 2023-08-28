@@ -115,7 +115,7 @@ const Header = () => {
                 <img src={Food1} alt="sda" className="container-three__image" />
             </div>
             <div ref={containerRefFour} className="container-four" id="menu">
-            <div className="container-four__text">
+            {/* <div className="container-four__text">
       <h2>Experience Authentic Mexican Delights! 🇲🇽</h2>
       <p>
         Indulge in the vibrant and mouthwatering flavors of Mexico with our delectable menu offerings that promise to take your taste buds on an unforgettable culinary journey. At [Restaurant Name], we take pride in crafting the finest Mexican dishes, ensuring each bite is a symphony of taste, texture, and tradition.
@@ -133,18 +133,14 @@ const Header = () => {
         Elevate your dining experience with the luxurious essence of our Shrimp Birria Tacos. Succulent shrimp, embraced by the same signature Birria marinade, offers a taste profile that's both indulgent and invigorating. The tender shrimp, combined with the authenticity of our handmade tortillas, create a combination that's both comforting and exhilarating.
       </p>
       
-      
       <h3>Mexican Shrimp Cocktail:</h3>
       <p>
         Dive into a bowl of coastal paradise with our Mexican Shrimp Cocktail. Plump, juicy shrimp are paired with a medley of crisp vegetables, all swimming in a zesty, tangy tomato-based cocktail sauce. This dish not only delights the palate but also transports you to the sun-soaked shores of Mexico, where seafood is celebrated with zest and zeal.
       </p>
       <p>
-        Our commitment to culinary excellence is woven into every aspect of our menu, from the selection of premium ingredients to the careful preparation methods that honor time-honored traditions. Whether you're a devoted fan of Mexican cuisine or new to its enchanting allure, we invite you to join us at [Restaurant Name] for an experience that captures the essence of Mexico's culinary heritage.
-      </p>
-      <p>
         🍹🎉 Discover the warmth of Mexico, one bite at a time. Come savor the authenticity at [Restaurant Name] today! 🎉🍹
       </p>
-    </div>
+    </div> */}
                 <img src={menu1} alt="sda" className="container-four__image" />
                 
             </div>

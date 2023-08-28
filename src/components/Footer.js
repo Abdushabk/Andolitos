@@ -34,7 +34,7 @@ const Footers = () => {
           <input className='ename' type="text" placeholder='Name' name='name' value={name} onChange={(e) => setName(e.target.value)}></input>
           <input className='e-email' type="email" placeholder='Email' name='email' value={email} onChange={(e) => setEmail(e.target.value)}></input>
           <input className='esubject' type="text" placeholder='Subject' name='subject' value={subject} onChange={(e) => setSubject(e.target.value)}></input>
-          <textarea className='esubject' cols="70" rows="12" placeholder='Your message' name='message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+          <textarea className='esubject' cols="50" rows="12" placeholder='Your message' name='message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
           <input className='e-btn' type="submit" value="Send Message"></input>
         </form>
       </div>
